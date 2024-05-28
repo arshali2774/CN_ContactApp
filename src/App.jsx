@@ -123,7 +123,7 @@ const App = () => {
       {isLoading && (
         <div className='toast toast-top toast-end'>
           <div className='alert alert-info'>
-            <span>User Updated</span>
+            <span>{selectedUser ? 'User Updated' : 'User Added'}</span>
           </div>
         </div>
       )}
